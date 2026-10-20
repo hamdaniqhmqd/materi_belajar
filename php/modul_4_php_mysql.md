@@ -243,22 +243,24 @@ Contoh sintaks kelas dan objek:
 <?php
 class Siswa
 {
-    public function __construct(
-        private string $nama, // private: hanya objek ini yang boleh membaca atau mengubah langsung
-    ) {
+    private string $nama; // properti untuk menyimpan nama siswa
+
+    public function __construct(string $nama)
+    {
+        $this->nama = $nama; // $this->nama adalah properti milik objek ini
     }
 
-    public function nama(): string // metode publik adalah cara yang disediakan untuk membaca nama
+    public function getNama(): string
     {
         return $this->nama;
     }
 }
 
-$siswa = new Siswa('Andi');   // new membuat objek dari kelas Siswa
-echo $siswa->nama();          // panggil metode objek; hasil: Andi
+$siswa = new Siswa('Andi');    // new membuat objek dari kelas Siswa
+echo $siswa->getNama();        // panggil metode objek; hasil: Andi
 ```
 
-`$this` merujuk objek yang sedang digunakan. Properti `private` tidak dapat diakses langsung dengan `$siswa->nama`; pemanggil harus memakai metode yang disediakan kelas. Itulah contoh **enkapsulasi**. Pada contoh repository di bagian 7.5, kontrak `abstract`, kelas turunan, dan pemanggilan `cari()` memperlihatkan tiga pilar lainnya.
+Pada contoh ini, `Siswa` adalah kelas, `$siswa` adalah objek, `$nama` adalah properti, dan `getNama()` adalah metode. Constructor `__construct()` berjalan saat objek dibuat dengan `new`. `$this` menunjuk pada objek yang sedang digunakan. Properti `private` dipakai dari dalam kelas melalui metodenya; ini contoh **enkapsulasi**. Bagian 7.5 menunjukkan bagaimana pola kelas dan objek digunakan bersama koneksi database.
 
 ---
 
