@@ -4,7 +4,7 @@ Kumpulan modul pembelajaran untuk siswa **Rekayasa Perangkat Lunak (RPL)**, dimu
 
 **Sasaran:** Siswa SMK kelas X (semester 1–2) RPL
 **Bahasa pengantar:** Bahasa Indonesia
-**Format:** Setiap modul tersedia dalam Markdown (`.md`) dan PDF
+**Format:** Modul tersedia dalam Markdown (`.md`); versi PDF ditautkan jika sudah tersedia.
 
 ---
 
@@ -37,8 +37,14 @@ Kumpulan modul pembelajaran untuk siswa **Rekayasa Perangkat Lunak (RPL)**, dimu
 | Front End Menengah     | [HTML Menengah — Semantic HTML dan Dasar SEO](html/modul_html_menengah_semantic_html_seo.md) | Elemen semantik, struktur heading, metadata, tautan, gambar, dan SEO on-page | [PDF](html/modul_html_menengah_semantic_html_seo.pdf) |
 | Front End Menengah     | [Modul 5 — CSS Menengah](css/modul_5_css_menengah.md)                                                   | Variabel CSS, Flexbox, Grid, responsif, tema gelap, cetak   | [PDF](css/modul_5_css_menengah.pdf) |
 | Front End Menengah     | [Modul 6 — JavaScript Menengah](javascript/modul_6_javascript_menengah.md)                              | DOM, event, validasi, `localStorage`, `fetch`, JSON         | [PDF](javascript/modul_6_javascript_menengah.pdf) |
+| Front End Lanjutan     | [Modul 7 — JavaScript Dasar sampai Menengah](javascript/modul_7_javascript_dasar_menengah.md)         | Fungsi, `async/await`, DOM, event, validasi, `fetch`, dan logika aplikasi | [PDF](javascript/modul_7_javascript_dasar_menengah.pdf) |
+| PHP & MySQL            | [Modul 5 — PHP Menengah sampai Mahir](php/modul_5_php_menengah_mahir.md)                              | Fungsi, OOP, composition, dependency injection, exception, sync/async, pengujian | Belum tersedia |
+| PHP & MySQL            | [Modul 6 — PHP & MySQL untuk Data Sekolah](php/modul_6_php_mysql_data_sekolah.md)                    | CRUD siswa, jurusan, mapel, nilai, validasi, transaksi, relasi, laporan | Belum tersedia |
+| PHP & MySQL            | [Modul 7 — Sistem Autentikasi Mini Project](php/modul_7_sistem_autentikasi_mini_project.md)          | Login, logout, role, session, password hashing, proteksi halaman | Belum tersedia |
 
-> Modul 5 dan 6 **melanjutkan proyek `crud_siswa` dari Modul 4**. Kerjakan berurutan: Modul 4 → Modul 5 (tampilan) → Modul 6 (interaksi).
+> Jalur front end melanjutkan proyek `crud_siswa`: PHP Modul 4 → CSS Modul 5 (tampilan) → JavaScript Modul 6 (interaksi).
+>
+> Jalur PHP lanjutan: **PHP Modul 4 → PHP Modul 5 (fungsi, OOP, sync/async) → PHP Modul 6 (pengelolaan seluruh data sekolah) → PHP Modul 7 (autentikasi dan otorisasi)**. Nomor modul mengikuti kelompok materi; CSS Modul 5 berbeda dari PHP Modul 5. Ketiga modul PHP lanjutan tersedia dalam Markdown; PDF belum dibuat.
 
 ---
 
