@@ -41,6 +41,11 @@ Kumpulan modul pembelajaran untuk siswa **Rekayasa Perangkat Lunak (RPL)**, dimu
 | PHP & MySQL            | [Modul 5 — PHP Menengah sampai Mahir](php/modul_5_php_menengah_mahir.md)                              | Fungsi, OOP, composition, dependency injection, exception, sync/async, pengujian | Belum tersedia |
 | PHP & MySQL            | [Modul 6 — PHP & MySQL untuk Data Sekolah](php/modul_6_php_mysql_data_sekolah.md)                    | CRUD siswa, jurusan, mapel, nilai, validasi, transaksi, relasi, laporan | Belum tersedia |
 | PHP & MySQL            | [Modul 7 — Sistem Autentikasi Mini Project](php/modul_7_sistem_autentikasi_mini_project.md)          | Login, logout, role, session, password hashing, proteksi halaman | Belum tersedia |
+| Analisis & Desain Sistem | [Modul 1 — Dasar Flowchart](ADSI/modul_1_dasar_flowchart.md)                                        | Pengertian, pedoman, simbol ANSI/ISO, membaca dan menggambar flowchart | [PDF](ADSI/pdf/modul_1_dasar_flowchart.pdf) |
+| Analisis & Desain Sistem | [Modul 2 — Flowchart Sistem dan Dokumen](ADSI/modul_2_flowchart_sistem_dan_dokumen.md)              | Flowchart sistem online/offline, flowchart dokumen, swimlane, alur rangkap | [PDF](ADSI/pdf/modul_2_flowchart_sistem_dan_dokumen.pdf) |
+| Analisis & Desain Sistem | [Modul 3 — Flowchart Skematik dan Proses](ADSI/modul_3_flowchart_skematik_dan_proses.md)            | Flowchart skematik untuk non-teknis, 5 simbol ASME, analisis waktu proses | [PDF](ADSI/pdf/modul_3_flowchart_skematik_dan_proses.pdf) |
+| Analisis & Desain Sistem | [Modul 4 — Flowchart Program](ADSI/modul_4_flowchart_program.md)                                    | Sekuensial, seleksi, iterasi, trace table, penerjemahan ke kode PHP | [PDF](ADSI/pdf/modul_4_flowchart_program.pdf) |
+| Analisis & Desain Sistem | [Modul 5 — DFD dan Perancangan Terstruktur](ADSI/modul_5_dfd_perancangan_terstruktur.md)            | Notasi DFD, context diagram, bagan berjenjang, DAD level 0 dan 1, balancing | [PDF](ADSI/pdf/modul_5_dfd_perancangan_terstruktur.pdf) |
 
 > Jalur front end melanjutkan proyek `crud_siswa`: PHP Modul 4 → CSS Modul 5 (tampilan) → JavaScript Modul 6 (interaksi).
 >
@@ -606,6 +611,13 @@ Modul lengkap berisi template prompt untuk memahami konsep, membaca kode, memper
 ```
 materi/
 ├── README.md                    ← kamu di sini
+├── ADSI/
+│   ├── modul_1_dasar_flowchart.md
+│   ├── modul_2_flowchart_sistem_dan_dokumen.md
+│   ├── modul_3_flowchart_skematik_dan_proses.md
+│   ├── modul_4_flowchart_program.md
+│   ├── modul_5_dfd_perancangan_terstruktur.md
+│   └── pdf/                     ← versi PDF modul analisis & desain sistem
 ├── ai/
 │   ├── modul_ai_basics_prompting_ai_untuk_belajar.md
 │   └── modul_ai_basics_prompting_ai_untuk_belajar.pdf
